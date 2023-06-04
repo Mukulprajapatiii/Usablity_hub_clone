@@ -43,6 +43,23 @@ a{
     display: inline-block;
 }
 
+ul{
+    list-style: none;
+}
+
+
+/* Utility classes */
+
+.hover-links{
+    color: var(--primary-text-color);
+
+}
+
+.hover-links:hover{
+    color: var(--accent-color);
+    transition: 0.2s  ease-in;
+}
+
 .small-bold-text{
     font-size: 1rem;
     font-weight: 700;
@@ -66,4 +83,27 @@ a{
     color: white;
     padding: 15px 30px;
     text-align: center;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.main-nav{
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.company-logo img{
+    width: 200px;
+}
+
+.nav-links{
+    flex-basis: 730px;
+}
+
+.nav-links ul{
+    justify-content: end;
+    gap: 40px;
 }
