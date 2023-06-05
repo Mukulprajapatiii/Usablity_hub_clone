@@ -73,7 +73,7 @@ ul {
 
 .top-banner {
     background-color: #4fb3d4;
-    background-image: url(/assets/asset\ 30.png);
+   
     background-size: 300px;
     background-repeat: no-repeat;
 
@@ -83,7 +83,13 @@ ul {
     color: white;
     padding: 15px 30px;
     text-align: center;
+    
 }
+
+.banner-text p{
+    font-weight: 10px;
+}
+
 
 .flex {
     display: flex;
@@ -160,4 +166,44 @@ ul {
 
 .get-started-btn{
     margin-top: 20px;
+}
+
+/* companies-section */
+.companies-header{
+    text-align: center;
+    margin-block: 30px;
+    color: var(--primary-text-color);
+}
+
+.logos{
+    justify-content: space-between;
+}
+
+.logo{
+    height: 46px;
+}
+
+.features-section{
+    padding: 80px var(--padding-inline-section) 0 ;
+}
+
+.features-header{
+    align-items: center;
+    text-align: center;
+}
+
+.features-header h2 {
+    margin-top: 90px;
+}
+
+.features-heading-text{
+    margin-bottom: 20px;
+}
+.features-area{
+    flex-wrap: wrap;
+}
+.features-card{
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30%;
 }
